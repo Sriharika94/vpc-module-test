@@ -14,3 +14,8 @@ output "default_vpc_inform" {
 output "main_route_table" {
     value = module.vpc.main_route_table_info
 }
+
+output "public_subnet_ids" {
+    value = module.vpc.public_subnet_ids
+}
+
